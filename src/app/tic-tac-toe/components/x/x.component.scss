@@ -11,7 +11,7 @@
     &:after {
       content: '';
       height: 100%;
-      border-left: 8px solid black;
+      border-left: 8px solid white;
       position: absolute;
       transform: rotate(45deg);
       left: 46%;
@@ -21,7 +21,7 @@
     &:before {
       content: '';
       height: 100%;
-      border-left: 8px solid black;
+      border-left: 8px solid white;
       position: absolute;
       transform: rotate(-45deg);
       left: 46%;

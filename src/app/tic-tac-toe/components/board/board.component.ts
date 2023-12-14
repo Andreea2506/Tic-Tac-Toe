@@ -41,7 +41,7 @@ export class BoardComponent {
     this.turnX = true;
     this.winX = false;
     this.winO = false;
-    this.winColor = "color-red";
+    this.winColor = "win-color";
     this.message = '';
   }
 

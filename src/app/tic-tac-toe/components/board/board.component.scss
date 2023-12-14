@@ -2,11 +2,12 @@
   margin: 5em auto;
   width: 30em;
   height: 30em;
+  background: cadetblue;
   .row {
     display: flex;
     flex-direction: row;
     .column {
-      border: 1px solid black;
+      border: 2px solid white;
       width: 10em;
       height: 10em;
     }
@@ -16,10 +17,10 @@
 
 .text{
   text-align: center;
-  font-size: 34px;
-  color: red;
+  font-size: 64px;
+  color: cadetblue;
 }
 
-.color-red{
-  background-color: red;
+.win-color{
+  background-color: #ff8747;
 }
