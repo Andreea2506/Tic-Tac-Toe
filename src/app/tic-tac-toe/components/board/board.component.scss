@@ -1,0 +1,25 @@
+.container {
+  margin: 5em auto;
+  width: 30em;
+  height: 30em;
+  .row {
+    display: flex;
+    flex-direction: row;
+    .column {
+      border: 1px solid black;
+      width: 10em;
+      height: 10em;
+    }
+
+  }
+}
+
+.text{
+  text-align: center;
+  font-size: 34px;
+  color: red;
+}
+
+.color-red{
+  background-color: red;
+}

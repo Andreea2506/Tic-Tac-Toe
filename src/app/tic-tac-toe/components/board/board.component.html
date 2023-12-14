@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="row" *ngFor="let row of matrix;  index as rowIndex;">
+    <div class="column" [ngClass]="checkCell(rowIndex, cellIndex) ? winColor: ''" *ngFor="let cell of row; index as cellIndex;"
+         (click)="onCellClick(rowIndex,cellIndex)">
+      <app-x *ngIf="cell===1"></app-x>
+      <app-o *ngIf="cell===2"></app-o>
+    </div>
+  </div>
+</div>
+<div class="text">{{message}}</div>
